@@ -1,23 +1,23 @@
 package response
 
 import (
-    "topsdk/ability369/domain"
+    "github.com/sreiox/topsdk/ability369/domain"
 )
 
 type TaobaoTbkDgOptimusPromotionResponse struct {
 
     /*
-        System request id
+       System request id
     */
     RequestId string `json:"request_id,omitempty" `
 
     /*
-        System body
+       System body
     */
     Body string
 
     /*
-        resultList
+       resultList
     */
-    ResultList  []domain.TaobaoTbkDgOptimusPromotionMapData `json:"result_list,omitempty" `
+    ResultList []domain.TaobaoTbkDgOptimusPromotionMapData `json:"result_list,omitempty" `
 }
